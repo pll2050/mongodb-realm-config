@@ -1,0 +1,18 @@
+{
+    "collection": "Test",
+    "database": "RealmDatebase",
+    "roles": [
+        {
+            "name": "owner",
+            "apply_when": {
+                "pll2050": "%%user.id"
+            },
+            "read": true,
+            "write": true,
+            "insert": true,
+            "delete": true,
+            "search": true,
+            "additional_fields": {}
+        }
+    ]
+}
